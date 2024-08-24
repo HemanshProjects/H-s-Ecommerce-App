@@ -101,7 +101,7 @@ const calculateTotalPrice = (cartt) => {
                 totalPrice: calculateTotalPrice(UpdatedCart)
             }
         }
-         
+        break;
 
         default:
         return state

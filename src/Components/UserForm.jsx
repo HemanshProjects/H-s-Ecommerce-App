@@ -24,7 +24,7 @@ const UserForm = () => {
     e.preventDefault();
     console.log(input);
     setAlert(true);
-    const timer = setTimeout(() => setAlert(false), 10000);
+    setTimeout(() => setAlert(false), 10000);
   };
 
   return (

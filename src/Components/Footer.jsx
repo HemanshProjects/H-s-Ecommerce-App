@@ -18,13 +18,13 @@ const Footer = () => {
         >
           <LinkedInIcon className="text-blue-500" />
         </a>
-        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noreferrer">
           <EmailIcon className="text-red-500" />
         </a>
       </div>
-      <marquee className="text-xs text-gray-600">
+      <span className="text-xs text-gray-600">
         Designed by <FavoriteIcon className="text-red-500 text-2xl" height="20px"/> from Hemansh Srivastava
-      </marquee>
+      </span>
     </div>
   );
 };
